@@ -1,5 +1,9 @@
 // When the user clicks the purchase button, render out
 // "Something went wrong, please try again" in the paragraph
 // that has the id="error".
+let purchaseResult = document.getElementById("error")
 
+function purchase() {
+    purchaseResult.textContent = "Something went wrong, please try again."
+}
 
