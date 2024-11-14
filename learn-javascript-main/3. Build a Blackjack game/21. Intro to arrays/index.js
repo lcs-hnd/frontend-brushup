@@ -9,3 +9,8 @@ let featuredPosts = [
 // Create an array that lists your i.e. experience, education, licenses, skills or similar
 // The items of the array should be strings
 
+let myExperience = [
+    "some of my 3d modelling assets",
+    "the game im currently on",
+    "my application to budget and maintain note on expenses"]
+

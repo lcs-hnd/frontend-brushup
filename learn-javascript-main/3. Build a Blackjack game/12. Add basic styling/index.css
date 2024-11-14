@@ -1,13 +1,33 @@
 /* Complete the CSS styling according to the provided design */
 
 body {
+    /* setting up flexbox and running the axis vertically down */
+    display: flex;
+    /* changes the direction of the main axis to top to bottom. keep in mind the cross axis never
+    reverses. it will always be perpendicular and either run from top to bottom or left to right.  */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* the height has to be set in order for justify content to work in this case since it is working vertically */
+    height: 100vh;
+    line-height: 0;
+
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: xx-large;
+    /* pool background */
+    background-image: url(images/table.png);
+    background-size: cover;
     
 }
+
+/* the extra fonts that show up after the initial inputed fonts is called a font stack */
 
 h1 {
     color: goldenrod;
 }
 
 #message-el {
-    
+    font-style: italic;
 }

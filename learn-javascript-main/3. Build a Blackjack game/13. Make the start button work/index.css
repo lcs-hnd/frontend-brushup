@@ -23,5 +23,19 @@ background - goldenrod
  */
  
 button {
+    width: 150px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: goldenrod;
+    color: #016f32;
+   
+  
 
+
+/*  you can use mix blend nodes within css which is similar to blender, this is so cool! */
+    /* background-color: goldenrod;
+    color: black;
+    mix-blend-mode:; */
 }
